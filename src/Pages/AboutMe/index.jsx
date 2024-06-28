@@ -5,7 +5,7 @@ function AboutMe() {
 
   return (
     <>
-      <Layout>
+      <Layout >
         Aboutme
       </Layout>
     </>

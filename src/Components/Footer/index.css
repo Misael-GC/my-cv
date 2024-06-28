@@ -1,0 +1,9 @@
+#sidebar a.active {
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  #sidebar a.active svg {
+    color: black;
+  }
+

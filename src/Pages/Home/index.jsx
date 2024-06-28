@@ -6,7 +6,7 @@ function Home() {
 
   return (
     <>
-      <Layout>
+      <Layout >
         Home
       </Layout>
     </>
