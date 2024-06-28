@@ -1,15 +1,14 @@
 
 import './index.css'
-import Navbar from '../../Components/Navbar'
+import Layout from '../../Components/Layout'
 
 function Home() {
 
   return (
     <>
-      <div className='bg-gray-100'>
-      <Navbar/>
-        Home 
-      </div>
+      <Layout>
+        Home
+      </Layout>
     </>
   )
 }

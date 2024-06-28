@@ -1,13 +1,13 @@
-
+import Layout from '../../Components/Layout'
 import './index.css'
 
 function WhatDo() {
 
   return (
     <>
-      <div className='bg-gray-100'>
+      <Layout className='bg-gray-100'>
         Whatdo
-      </div>
+      </Layout>
     </>
   )
 }

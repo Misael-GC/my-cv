@@ -1,13 +1,13 @@
 
 import './index.css'
-
+import Layout from '../../Components/Layout'
 function NotFound() {
 
   return (
     <>
-      <div className='bg-gray-100'>
+      <Layout>
         NotFound
-      </div>
+      </Layout>
     </>
   )
 }

@@ -5,6 +5,8 @@ import AboutMe from '../AboutMe/index'
 import WhatDo from '../WhatDo/index'
 import Portfolio from '../Portfolio/index'
 import NotFound from '../NotFound'
+import Navbar from '../../Components/Navbar'
+import Footer from '../../Components/Footer'
 import './App.css'
 
 const AppRoutes = () =>{
@@ -24,6 +26,8 @@ function App() {
   return (
     <BrowserRouter>
       <AppRoutes/>
+      <Navbar/>
+      <Footer/>
     </BrowserRouter>
   )
 }

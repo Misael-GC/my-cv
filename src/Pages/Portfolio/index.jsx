@@ -1,13 +1,13 @@
-
+import Layout from '../../Components/Layout'
 import './index.css'
 
 function Portafolio() {
 
   return (
     <>
-      <div className='bg-gray-100'>
+      <Layout>
         Portafolio
-      </div>
+      </Layout>
     </>
   )
 }
