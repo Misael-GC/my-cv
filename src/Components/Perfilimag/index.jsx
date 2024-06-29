@@ -7,7 +7,7 @@ function Perfilimag() {
       <img
         src={perfil}
         alt='profile'
-        className='w-80 float transition duration-500 shadow-xl shadow-purple-500/50 rounded-full bg-gray-900'
+        className='w-80 float transition duration-500 shadow-xl shadow-purple-500/50 rounded-full bg-transparent'
       />
     </div>
   )

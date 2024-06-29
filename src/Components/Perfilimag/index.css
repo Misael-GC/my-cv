@@ -15,7 +15,7 @@
   }
   
 /* styles.css */
-.shadow-purple-bottom {
-    box-shadow: 0 10px 10px -10px rgba(128, 0, 128, 0.5) !important; /* Sombra púrpura solo en la parte inferior */
+.img {
+    mask-image: linear-gradient(purple 80%, transparent);
   }
   

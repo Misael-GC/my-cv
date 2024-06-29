@@ -1,13 +1,13 @@
 
 import { FaLinkedin } from 'react-icons/fa';
-import { ImGithub, ImWhatsapp } from "react-icons/im";
+import { ImGithub } from "react-icons/im";
 import { TfiTwitterAlt } from "react-icons/tfi";
 
 import './index.css'
 
 function Navbar() {
   return (
-    <nav className="flex bg-black text-white p-4 justify-between items-center fixed z-10 w-full fixed top-0">
+    <nav className="flex bg-black text-white p-7 justify-between items-center fixed z-10 w-full top-0">
         <ul className='flex items-center'>
           <div className="text-2xl font-bold">MGC</div>
         </ul>

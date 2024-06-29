@@ -45,7 +45,7 @@ function Home() {
                   </p>
                   <div className='my-5 flex gap-5'>
                     <DownloadButton />
-                    <a href="#contact" className='text-gradient btn-link hover:bg-black hover:text-white text-black px-4 py-2 rounded bg-gray-200 border-2 hover:text-black border-white transition-all'>Contactame</a>
+                    <a href="#contact" className='text-gradient btn-link hover:bg-black hover:text-white text-black px-4 py-2 rounded bg-gray-200 border-2  border-white transition-all'>Contactame</a>
                   </div>
               </div>
               {/* image */}
