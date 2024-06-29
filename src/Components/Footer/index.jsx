@@ -6,7 +6,7 @@ function Footer() {
 
 
   return (
-    <footer className='flex flex-col  bottom-2 lg:bottom-7 w-full overflow-hidden z-50 items-center mt-20 text-white ' id="sidebar">
+    <footer className='flex flex-col  bottom-2 lg:bottom-7 w-full overflow-hidden z-50 items-center mt-5 text-white mb-3' id="sidebar">
 
         <ul className='w-full bg-white/20 h-[80px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between 
         text-2xl  items-center'>
