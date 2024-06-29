@@ -1,6 +1,7 @@
 import Layout from '../../Components/Layout'
 import perfil from '../../images/perfil2.png'
 import { TypeAnimation } from 'react-type-animation';
+import DownloadButton from '../../Components/Download/index'
 import './index.css'
 
 
@@ -45,7 +46,7 @@ function Home() {
                     sustancial en el mantenimiento de equipos de cómputo.
                   </p>
                   <div className='my-5 flex gap-5'>
-                    <button className='btn btn-lg bg-black text-white px-4 py-2 rounded hover:bg-gray-200 border-2 hover:text-black border-white transition-all'>Descargar CV</button>
+                    <DownloadButton />
                     <a href="#contact" className='text-gradient btn-link bg-black text-white px-4 py-2 rounded hover:bg-gray-200 border-2 hover:text-black border-white transition-all'>Contactame</a>
                   </div>
               </div>
