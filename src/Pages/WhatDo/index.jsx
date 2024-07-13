@@ -1,4 +1,5 @@
 import Layout from '../../Components/Layout'
+import Skills from '../../Components/Skills'
 import './index.css'
 
 function WhatDo() {
@@ -6,7 +7,9 @@ function WhatDo() {
   return (
     <>
       <Layout className='bg-gray-100'>
-      wHAT i DO
+        <div className='mb-20'> hola
+          <Skills/>
+        </div>
       </Layout>
     </>
   )
