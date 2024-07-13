@@ -17,7 +17,7 @@ function AboutMe() {
               <div className=''>
                 <div className='flex flex-col'>
                   <h2 className="text-5xl font-bold">Sobre mí</h2>
-                  <p className="py-5 mx-auto max-w-[525px] text-slate-300 font-semibold text-lg">
+                  <p className="py-7 mx-auto max-w-[525px] text-slate-300 font-semibold text-lg">
                     Soy un entusiasta de la programación con un firme compromiso en mejorar mis habilidades en el desarrollo de software.
                     <br />Tengo experiencia en los siguientes puestos:
                   {/* <Database  className='w-10'/> */}

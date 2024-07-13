@@ -20,10 +20,10 @@ function Home() {
               <CoverParticles/>
               <div>
                 <div className='my-5'>
-                  <span>Bienvenido a mi portafolio</span>
+                  <span className='text-slate-300 font-bold text-3xl'>Bienvenido a mi portafolio</span>
                 </div>
                 <div className='mb-6 text-[36px] lg:text-[25px] font-secondary font-semibold leading-[1]'>
-                  <span> Soy </span>
+                  <span className='text-slate-300 font-semibold text-1xl'> Soy </span>
                   <TypeAnimation
                     sequence={[
                             // Same substring at the start will only be typed out once, initially
@@ -37,17 +37,17 @@ function Home() {
                           wrapper="span"
                           speed={50}
                           // style={{ fontSize: '1.5em', display: 'inline-block' }}
-                          className='text-xl text-secondary'
+                          className=' text-secondary font-bold text-2xl'
                           repeat={Infinity}
                   />
                 </div>
-                  <p className='mx-auto max-w-[500px]'>
+                  <p className='mx-auto max-w-[500px] text-slate-300 font-semibold text-lg'>
                   Apasionado de la programación y desarrollo de software, con habilidades en Git, GitHub, HTML, CSS,
                   JavaScript, React, Linux, Excel, MySQL, SQL Server.
                   </p>
                   <div className='my-5 flex gap-5'>
                     <DownloadButton />
-                    <a href="#contact" className='text-gradient btn-link hover:bg-black hover:text-white text-black px-4 py-2 rounded bg-gray-200 border-2  border-white transition-all' href="https://wa.me/522228718803" target='_blank'>Contactame</a>
+                    <a className='text-gradient btn-link hover:bg-black hover:text-white text-black px-4 py-2 rounded bg-gray-200 border-2  border-white transition-all' href="https://wa.me/522228718803" target='_blank'>Contactame</a>
                   </div>
               </div>
               {/* image */}
