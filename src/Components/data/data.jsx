@@ -4,28 +4,28 @@ export const dataAboutPage = [
         title: "Auxiliar Técnico",
         subtitle: "Optima Capacitación",
         description: "Mantenimiento preventivo y correctivo, instalación de S.O, drivers, desbloqueo de usuarios, respaldos de información",
-        date_inicio: "Junio 2023 ",
+        date_inicio: "Jun 2023 ",
     },
     {
         id: 1,
         title: "Practicante en desarrollo de software",
         subtitle: "Xube Soluciones Tecnológicas",
         description: "Reportes utilizando consultas SQL, documentación de procesos, análisis de código para hacer pequeñas modificaciones a software de la empresa, comprensión de algoritmos para el desarrollo del sistema, diccionario de datos y respaldos de información",
-        date_inicio: "Noviembre 2023 ",
+        date_inicio: "Nov 2023 ",
     },
     {
         id: 2,
         title: "Data Engineer Trainee",
         subtitle: "Beetmann",
-        description: "Consultas SQL, modificación de vistas en SQL, creación de Procesos Almacenados, conexión de SQL a Excel con macros (ETL), actualización de diccionario de datos y  diseño de diagramas UML Entidad relación",
-        date_inicio: "Abril 2024",
+        description: "Consultas SQL, modificación de vistas en SQL, creación de Procesos Almacenados, actualización de diccionario de datos y  diseño de diagramas UML Entidad relación",
+        date_inicio: "Abr 2024",
     },
     {
         id: 3,
         title: "Desarrollo Frontend",
         subtitle: "Aprendizaje autodidacta",
         description: "Maquetación web, HTML, CSS, Bootstrap, Tailwind, npm, JS, React, Hooks, páginas interactivas, despliegue de páginas, consumo de APIs",
-        date_inicio: "Marzo 2022",
+        date_inicio: "Mar 2022",
     },
 ]
 

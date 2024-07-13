@@ -48,20 +48,20 @@ function CoverParticles() {
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 250,
                             duration: 0.4,
                         },
                     },
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: "#B3A7A7",
                     },
                     links: {
-                        color: "#ffffff",
+                        color: "#6F6A6A",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.3,
                         width: 1,
                     },
                     move: {
@@ -71,7 +71,7 @@ function CoverParticles() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 1,
+                        speed: 0.5,
                         straight: false,
                     },
                     number: {
