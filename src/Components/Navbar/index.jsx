@@ -7,7 +7,7 @@ import './index.css'
 
 function Navbar() {
   return (
-    <nav className="flex bg-black text-white p-7 justify-between items-center fixed z-10 w-full top-0">
+    <nav className="flex bg-#1f1934 text-white p-7 justify-between items-center fixed z-10 w-full top-0">
         <ul className='flex items-center'>
           <div className="text-2xl font-bold">MGC</div>
         </ul>

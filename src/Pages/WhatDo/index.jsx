@@ -6,7 +6,7 @@ function WhatDo() {
   return (
     <>
       <Layout className='bg-gray-100'>
-        Whatdo
+      wHAT i DO
       </Layout>
     </>
   )
