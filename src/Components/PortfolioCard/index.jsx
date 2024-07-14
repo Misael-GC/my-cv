@@ -8,7 +8,9 @@ const Card = ({ title, image, urlGithub, urlDemo, descripcion, date }) => {
     return (
         <div className="relative border border-gray-300 rounded-lg text-center bg-[#2D2F3B] text-white overflow-hidden">
             <div className="relative">
-                <img src={image} alt={title} className="w-full h-48 object-cover object-top" />
+                <a href={urlDemo} target="_blank" rel="noopener noreferrer">
+                    <img src ={image} alt={title} className="w-full h-48 object-cover object-top" />
+                </a>
                 <div className="absolute bottom-0 left-0 w-full bg-opacity-40 bg-black text-white p-4">
                     <h2 className="text-lg font-bold">
                         {title}
@@ -16,7 +18,7 @@ const Card = ({ title, image, urlGithub, urlDemo, descripcion, date }) => {
                     </h2>
                 </div>
             </div>
-            <p className="mt-2">{descripcion}</p>
+            <p className="my-2 h-20">{descripcion}</p>
             <div className="my-4">
             <a
                     className="bg-secondary bg-opacity-40 text-white border-none px-4 py-2 rounded mr-2 inline-block"
