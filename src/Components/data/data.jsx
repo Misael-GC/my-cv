@@ -1,50 +1,56 @@
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaSass, FaFigma, FaPhp, FaNodeJs, FaLaravel, FaPython, FaGit, FaGithub, FaDocker, FaTerminal, FaNpm, FaWordpress } from 'react-icons/fa';
-import { SiTailwindcss, SiExpress, SiMysql, SiMongodb, SiNginx, SiApache, SiTypescript, SiAstro } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaSass, FaFigma, FaPhp, FaNodeJs, FaLaravel, FaPython, FaGit, FaGithub, FaDocker, FaTerminal, FaNpm, FaWordpress, FaBootstrap, FaFileExcel, FaLinux } from 'react-icons/fa';
+import { SiTailwindcss, SiExpress, SiMysql, SiMongodb, SiNginx, SiApache, SiTypescript, SiDjango, SiMicrosoftsqlserver } from 'react-icons/si';
+import { FaGolang } from "react-icons/fa6";
+import { GrStorage } from "react-icons/gr";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export const skillsData = [
   {
     category: "Frontend",
     skills: [
-      { name: "HTML", icon: <FaHtml5 size={25} /> },
-      { name: "CSS", icon: <FaCss3Alt size={25} /> },
-      { name: "JavaScript", icon: <FaJsSquare size={25} /> },
-      { name: "ReactJS", icon: <FaReact size={25} /> },
-      { name: "TailwindCSS", icon: <SiTailwindcss size={25} /> },
-      { name: "SASS", icon: <FaSass size={25} /> },
-      { name: "Figma", icon: <FaFigma size={25} /> }
+      { name: "HTML", icon: <FaHtml5 size={25} color='#e34f26' /> },
+      { name: "CSS", icon: <FaCss3Alt size={25} color='#44b7e9'/> },
+      { name: "JavaScript", icon: <FaJsSquare size={25} color='#F9F907'/> },
+      { name: "ReactJS", icon: <FaReact size={25} color='#58c4dc'/> },
+      { name: "TailwindCSS", icon: <SiTailwindcss size={25} color='rgb(14 207 207)' /> },
+      { name: "Bootstrap", icon: <FaBootstrap size={25} color='#7610f6'/> }
+      // { name: "SASS", icon: <FaSass size={25} /> },
+      // { name: "Figma", icon: <FaFigma size={25} /> }
     ]
   },
   {
     category: "Backend",
     skills: [
-      { name: "PHP", icon: <FaPhp size={25} /> },
-      { name: "NodeJS", icon: <FaNodeJs size={25} /> },
-      { name: "Laravel", icon: <FaLaravel size={25} /> },
-      { name: "ExpressJS", icon: <SiExpress size={25} /> },
-      { name: "MySQL", icon: <SiMysql size={25} /> },
-      { name: "MongoDB", icon: <SiMongodb size={25} /> },
-      { name: "Nginx", icon: <SiNginx size={25} /> },
-      { name: "Apache", icon: <SiApache size={25} /> }
+      // { name: "PHP", icon: <FaPhp size={25} /> },
+      { name: "Python", icon: <FaPython size={25} color='#f6d144'/> },
+      // { name: "Laravel", icon: <FaLaravel size={25} /> },
+      // { name: "ExpressJS", icon: <SiExpress size={25} /> },
+      { name: "MySQL", icon: <SiMysql size={35} color='#1a839b'/> },
+      { name: "SQL Server", icon: <SiMicrosoftsqlserver size={35} color='#c1231f'/> },
+      // { name: "MongoDB", icon: <SiMongodb size={25} /> },
+      // { name: "Nginx", icon: <SiNginx size={25} /> },
+       { name: "Django", icon: <SiDjango size={25} color='#0c4b33'/> }
     ]
   },
-  {
+  { 
     category: "Aprendiendo",
     skills: [
-      { name: "Python", icon: <FaPython size={25} /> },
-      { name: "Astro", icon: <SiAstro size={25} /> },
-      { name: "Docker", icon: <FaDocker size={25} /> },
-      { name: "TypeScript", icon: <SiTypescript size={25} /> }
+      { name: "NodeJS", icon: <FaNodeJs size={25} color='#58a846'/> },
+      { name: "Golang", icon: <FaGolang size={30} color='#00ffff'/> },
+      { name: "Postgresql ", icon: <BiLogoPostgresql  size={35}  color='#2e5e8b'/> }
+      // { name: "Docker", icon: <FaDocker size={25} /> },
     ]
   },
   {
     category: "Herramientas",
     skills: [
-      { name: "Git", icon: <FaGit size={25} /> },
+      { name: "Git", icon: <FaGit size={25} color='#e84d31' /> },
       { name: "GitHub", icon: <FaGithub size={25} /> },
       { name: "Terminal", icon: <FaTerminal size={25} /> },
-      { name: "VSCode", icon: <FaReact size={25} /> },
-      { name: "npm", icon: <FaNpm size={25} /> },
-      { name: "WordPress", icon: <FaWordpress size={25} /> }
+      { name: "npm", icon: <FaNpm size={25} color='#cb0000'/> },
+      { name: "Linux", icon: <FaLinux size={30} /> },
+      { name: "Excel/Macros", icon: <FaFileExcel  size={25} color='#1d6a3f' /> },
+      // { name: "WordPress", icon: <FaWordpress size={25} /> }
     ]
   }
 ];

@@ -23,15 +23,15 @@ function Home() {
                   <span className='text-slate-300 font-bold text-3xl'>Bienvenido a mi portafolio</span>
                 </div>
                 <div className='mb-6 text-[36px] lg:text-[25px] font-secondary font-semibold leading-[1]'>
-                  <span className='text-slate-300 font-semibold text-1xl'> Soy </span>
+                  {/* <span className='text-slate-300 font-semibold text-1xl'> Soy </span> */}
                   <TypeAnimation
                     sequence={[
                             // Same substring at the start will only be typed out once, initially
-                            'Frontend',
+                            'Software Developer',
                             2000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'Analista de bases de datos SQL',
+                            'Frontend Trainne',
                             2000,
-                            'Analista de datos con Power BI',
+                            'Data Engineer Trainne',
                             2000
                           ]}
                           wrapper="span"
