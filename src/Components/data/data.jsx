@@ -149,7 +149,7 @@ export const dataPortfolioFilter = {
       {
           id: 1,
           title: "Web Pro",
-          image: "/image-1.jpg",
+          image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
           urlGithub: "#!",
           urlDemo: "#!",
       },
