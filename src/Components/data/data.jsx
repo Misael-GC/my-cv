@@ -228,7 +228,7 @@ export const dataPortfolioFilter = {
           image: "https://static.platzi.com/media/porfilio/page_1f96b10e-a6ce-4bbe-8267-73ebf4523f1d.png",
           urlGithub: "https://github.com/Misael-GC/next-js",
           urlDemo: "https://next-js-git-pwa-misael-gc.vercel.app/",
-          descripcion: "Conexión del Frontend y Backend, trabajar con Next.js, configuraciones y estructura de la página",
+          descripcion: "Conexión del Frontend y Backend, trabajar con Next.js, configuraciones y estructura de la página ",
           date:"Nov 2022"
       },
       {

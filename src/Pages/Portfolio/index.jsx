@@ -9,10 +9,10 @@ function Portafolio() {
   return (
     <>
       <Layout>
-      <section className='mb-6 mt-3 md:mb-32'>
+      <section className='mt-3 md:mb-[135px] mb-[130px] '>
           <CoverParticles/>
-          <div className='flex flex-col items-start justify-center pl-4 w-auto'>
-            <h2 className='text-slate-300 font-bold text-3xl mb-4 lg:pl-32'>Tecnologías</h2>
+          <div className='flex flex-col items-start justify-center pl-4 w-auto '>
+            <h2 className='text-slate-300 font-bold text-3xl mb-4 lg:pl-32'>Portafolio</h2>
             <p className='flex flex-wrap px-10 max-w-[900px] py-7 mx-auto text-slate-300 font-semibold text-lg'>
             En mi aprendizaje he desarrollado diferentes proyectos, donde he desarrollado y mejorado mis habilidades en los diferentes lenguajes donde aplico mis 
             conocimientos en el desarrollo de aplicaciones web y aplicaciones móviles.

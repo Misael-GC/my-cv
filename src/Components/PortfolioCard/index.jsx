@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { dataPortfolioFilter } from "../data/data"
-
+import './index.css'
 
 
 
@@ -18,7 +18,7 @@ const Card = ({ title, image, urlGithub, urlDemo, descripcion, date }) => {
                     </h2>
                 </div>
             </div>
-            <p className="my-2 h-20">{descripcion}</p>
+            <p className="my-2 h-20 text-clip">{descripcion}</p>
             <div className="my-4">
             <a
                     className="bg-secondary bg-opacity-40 text-white border-none px-4 py-2 rounded mr-2 inline-block"
@@ -65,7 +65,7 @@ const PortfolioCard = () => {
 
     return (
         <div>
-            <div className="mb-4 text-center">
+            <div className="mb-4 text-center custom-button-container">
                 <button
                     className={`bg-gray-700 text-white border-none px-4 py-2 rounded mr-2 ${filter === 'todos' && 'bg-secondary'}`}
                     onClick={() => setFilter('todos')}

@@ -13,12 +13,12 @@ function Home() {
   return (
     <>
       <Layout >
-        <main className='min-h-[85vh] lg:min-h-[78vh] flex items-center justify-center' id='home' >
-          <div className='container mx-auto flex min-h-[100vh] bg-no-repeat bg-gradient-cover'>
-            <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 mx-auto ml-3'>
+        <main className='min-h-[85vh] lg:min-h-[78vh] flex items-center justify-center ' id='home' >
+          <div className='container mx-auto flex min-h-[100vh] bg-no-repeat bg-gradient-cover pt-[220px] md:pt-0'> {/* aqui poner el pt-[220px] */}
+            <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 mx-auto ml-3 '>
               {/* text */}
               <CoverParticles/>
-              <div>
+              <div className=''>
                 <div className='my-5'>
                   <span className='text-slate-300 font-bold text-3xl'>Bienvenido a mi portafolio</span>
                 </div>
@@ -51,7 +51,7 @@ function Home() {
                   </div>
               </div>
               {/* image */}
-              <div className='mx-auto'>
+              <div className='mx-auto mb-[130px] md:mb-0'> {/* Aqui quiero que haga un espacio del footer que me estorba para ver la foto en tamaño movil*/}
                 <Perfilimag/>
               </div>
             </div>

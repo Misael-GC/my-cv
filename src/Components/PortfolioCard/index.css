@@ -1,0 +1,8 @@
+@media (max-width: 404px) {
+    .custom-button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem; /* Ajusta el espacio entre los botones según sea necesario */
+    }
+  }
