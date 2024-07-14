@@ -1,7 +1,6 @@
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaSass, FaFigma, FaPhp, FaNodeJs, FaLaravel, FaPython, FaGit, FaGithub, FaDocker, FaTerminal, FaNpm, FaWordpress, FaBootstrap, FaFileExcel, FaLinux } from 'react-icons/fa';
-import { SiTailwindcss, SiExpress, SiMysql, SiMongodb, SiNginx, SiApache, SiTypescript, SiDjango, SiMicrosoftsqlserver } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGit, FaGithub, FaTerminal, FaNpm, FaBootstrap, FaFileExcel, FaLinux } from 'react-icons/fa';
+import { SiTailwindcss, SiMysql, SiDjango, SiMicrosoftsqlserver } from 'react-icons/si';
 import { FaGolang } from "react-icons/fa6";
-import { GrStorage } from "react-icons/gr";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const skillsData = [
@@ -144,3 +143,68 @@ export const dataPortfolio = [
         urlDemo: "#!",
     }
 ];
+
+export const dataPortfolioFilter = {
+  básico: [
+      {
+          id: 1,
+          title: "Web Pro",
+          image: "/image-1.jpg",
+          urlGithub: "#!",
+          urlDemo: "#!",
+      },
+      {
+          id: 2,
+          title: "Desarrollo Web Ágil",
+          image: "/image-2.jpg",
+          urlGithub: "#!",
+          urlDemo: "#!",
+      }
+  ],
+  intermedio: [
+      {
+          id: 3,
+          title: "Estrategias Web",
+          image: "/image-3.jpg",
+          urlGithub: "#!",
+          urlDemo: "#!",
+      },
+      {
+          id: 4,
+          title: "Ideas Creativas",
+          image: "/image-4.jpg",
+          urlGithub: "#!",
+          urlDemo: "#!",
+      },
+      {
+          id: 5,
+          title: "Webs Impactantes",
+          image: "/image-5.jpg",
+          urlGithub: "#!",
+          urlDemo: "#!",
+      }
+  ],
+  avanzado: [
+      {
+          id: 6,
+          title: "Web Dinámica",
+          image: "/image-6.jpg",
+          urlGithub: "#!",
+          urlDemo: "#!",
+      },
+      {
+          id: 7,
+          title: "Dark Web",
+          image: "/image-7.jpg",
+          urlGithub: "#!",
+          urlDemo: "#!",
+      },
+      {
+          id: 8,
+          title: "E-commerce web",
+          image: "/image-8.jpg",
+          urlGithub: "#!",
+          urlDemo: "#!",
+      }
+  ]
+};
