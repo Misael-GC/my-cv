@@ -148,63 +148,97 @@ export const dataPortfolioFilter = {
   básico: [
       {
           id: 1,
-          title: "Web Pro",
-          image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-          urlGithub: "#!",
-          urlDemo: "#!",
+          title: "Inflación México",
+          image: "https://static.platzi.com/media/porfilio/1st-project_92041b56-4f01-41b7-9664-73c76ab9a56c.png",
+          urlGithub: "https://github.com/Misael-GC/Inflacion-mx.github.io",
+          urlDemo: "https://misael-gc.github.io/Inflacion-mx.github.io/",
+          descripcion: "Métodos de arrays, funciones, condicionales, algoritmos, conexión de HTML con JavaScript",
+          date:" Jun 2022"
       },
       {
           id: 2,
-          title: "Desarrollo Web Ágil",
-          image: "/image-2.jpg",
-          urlGithub: "#!",
-          urlDemo: "#!",
+          title: "",
+          image: "#",
+          urlGithub: "#",
+          urlDemo: "#",
+          descripcion: "#",
+          date:"#"
+      },
+      {
+          id: 3,
+          title: "",
+          image: "#",
+          urlGithub: "#",
+          urlDemo: "#",
+          descripcion: "#",
+          date:"#"
+      },
+      {
+          id: 4,
+          title: "Página NoCode - Notion",
+          image: "https://static.platzi.com/media/porfilio/mi-page_d9a3da8e-262f-45e5-a8b6-6219e5532d3d.png",
+          urlGithub: "https://misael-gomez-cuautle.super.site/",
+          urlDemo: "https://misael-gomez-cuautle.super.site/",
+          descripcion: "Página construida en Notion y CSS, nocode",
+          date:"Oct 2022"
       }
   ],
   intermedio: [
       {
-          id: 3,
-          title: "Estrategias Web",
-          image: "/image-3.jpg",
-          urlGithub: "#!",
-          urlDemo: "#!",
-      },
-      {
-          id: 4,
-          title: "Ideas Creativas",
-          image: "/image-4.jpg",
-          urlGithub: "#!",
-          urlDemo: "#!",
-      },
-      {
           id: 5,
-          title: "Webs Impactantes",
-          image: "/image-5.jpg",
-          urlGithub: "#!",
-          urlDemo: "#!",
-      }
-  ],
-  avanzado: [
+          title: "Inflación México",
+          image: "https://static.platzi.com/media/porfilio/1st-project_92041b56-4f01-41b7-9664-73c76ab9a56c.png",
+          urlGithub: "https://github.com/Misael-GC/Inflacion-mx.github.io",
+          urlDemo: "https://misael-gc.github.io/Inflacion-mx.github.io/",
+          descripcion: "Métodos de arrays, funciones, condicionales, algoritmos, conexión de HTML con JavaScript",
+          date:" Jun 2022"
+      },
       {
           id: 6,
-          title: "Web Dinámica",
-          image: "/image-6.jpg",
-          urlGithub: "#!",
-          urlDemo: "#!",
+          title: "",
+          image: "#",
+          urlGithub: "#",
+          urlDemo: "#",
+          descripcion: "#",
+          date:"#"
       },
       {
           id: 7,
-          title: "Dark Web",
-          image: "/image-7.jpg",
-          urlGithub: "#!",
-          urlDemo: "#!",
+          title: "",
+          image: "#",
+          urlGithub: "#",
+          urlDemo: "#",
+          descripcion: "#",
+          date:"#"
       },
+  ],
+  avanzado: [
       {
           id: 8,
-          title: "E-commerce web",
-          image: "/image-8.jpg",
-          urlGithub: "#!",
-          urlDemo: "#!",
-      }
+          title: "Inflación México",
+          image: "https://static.platzi.com/media/porfilio/1st-project_92041b56-4f01-41b7-9664-73c76ab9a56c.png",
+          urlGithub: "https://github.com/Misael-GC/Inflacion-mx.github.io",
+          urlDemo: "https://misael-gc.github.io/Inflacion-mx.github.io/",
+          descripcion: "Métodos de arrays, funciones, condicionales, algoritmos, conexión de HTML con JavaScript",
+          date:" Jun 2022"
+      },
+      {
+          id: 9,
+          title: "",
+          image: "#",
+          urlGithub: "#",
+          urlDemo: "#",
+          descripcion: "#",
+          date:"#"
+      },
+      {
+          id: 10,
+          title: "",
+          image: "#",
+          urlGithub: "#",
+          urlDemo: "#",
+          descripcion: "#",
+          date:"#"
+      },
   ]
 };

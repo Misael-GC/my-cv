@@ -3,18 +3,37 @@ import { dataPortfolioFilter } from "../data/data"
 
 
 
-const Card = ({ title, image }) => {
+
+const Card = ({ title, image, urlGithub, urlDemo, descripcion, date }) => {
     return (
-        <div className="border border-gray-300 rounded-lg p-6 text-center bg-[#2D2F3B] text-white">
-            <img src={image} alt={title} className="w-full rounded-lg " />
-            <h2 className="text-[#7bff00] mt-4">
-                {title} 
-                <span className="bg-pink-500 text-white rounded px-2 py-1 ml-2">NEW</span>
-            </h2>
-            <p className="mt-2">If a dog chews shoes whose shoes does he choose?</p>
-            <div className="mt-4">
-                <button className="bg-pink-500 text-white border-none px-4 py-2 rounded mr-2">Fashion</button>
-                <button className="bg-pink-500 text-white border-none px-4 py-2 rounded">Products</button>
+        <div className="relative border border-gray-300 rounded-lg text-center bg-[#2D2F3B] text-white overflow-hidden">
+            <div className="relative">
+                <img src={image} alt={title} className="w-full h-48 object-cover object-top" />
+                <div className="absolute bottom-0 left-0 w-full bg-opacity-40 bg-black text-white p-4">
+                    <h2 className="text-lg font-bold">
+                        {title}
+                        <span className="bg-secondary bg-opacity-70 text-white rounded px-2 py-1 ml-2">{date}</span>
+                    </h2>
+                </div>
+            </div>
+            <p className="mt-2">{descripcion}</p>
+            <div className="my-4">
+            <a
+                    className="bg-secondary bg-opacity-40 text-white border-none px-4 py-2 rounded mr-2 inline-block"
+                    href={urlGithub}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+                <a
+                    className="bg-secondary bg-opacity-40 text-white border-none px-4 py-2 rounded inline-block"
+                    href={urlDemo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    URL
+                </a>
             </div>
         </div>
     );
@@ -46,33 +65,33 @@ const PortfolioCard = () => {
         <div>
             <div className="mb-4 text-center">
                 <button
-                    className={`bg-pink-500 text-white border-none px-4 py-2 rounded mr-2 ${filter === 'todos' && 'bg-pink-700'}`}
+                    className={`bg-gray-700 text-white border-none px-4 py-2 rounded mr-2 ${filter === 'todos' && 'bg-secondary'}`}
                     onClick={() => setFilter('todos')}
                 >
                     Todos
                 </button>
                 <button
-                    className={`bg-pink-500 text-white border-none px-4 py-2 rounded mr-2 ${filter === 'básico' && 'bg-pink-700'}`}
+                    className={`bg-gray-700 text-white border-none px-4 py-2 rounded mr-2 ${filter === 'básico' && 'bg-secondary'}`}
                     onClick={() => setFilter('básico')}
                 >
                     Básicos
                 </button>
                 <button
-                    className={`bg-pink-500 text-white border-none px-4 py-2 rounded mr-2 ${filter === 'intermedio' && 'bg-pink-700'}`}
+                    className={`bg-gray-700 text-white border-none px-4 py-2 rounded mr-2 ${filter === 'intermedio' && 'bg-secondary'}`}
                     onClick={() => setFilter('intermedio')}
                 >
                     Intermedios
                 </button>
                 <button
-                    className={`bg-pink-500 text-white border-none px-4 py-2 rounded ${filter === 'avanzado' && 'bg-pink-700'}`}
+                    className={`bg-gray-700 text-white border-none px-4 py-2 rounded ${filter === 'avanzado' && 'bg-secondary'}`}
                     onClick={() => setFilter('avanzado')}
                 >
                     Avanzados
                 </button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto px-40">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto md:px-40">
                 {filteredProjects.map(project => (
-                    <Card key={project.id} title={project.title} image={project.image} />
+                    <Card key={project.id} title={project.title} image={project.image}  urlGithub={project.urlGithub} urlDemo={project.urlDemo} descripcion={project.descripcion} date={project.date}/>
                 ))}
             </div>
         </div>
