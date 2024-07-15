@@ -14,7 +14,7 @@ class PDF extends Component {
         const pdfUrl = '../../../public/CV Act.pdf'; // Ruta relativa al PDF dentro de tu proyecto
 
         return (
-            <div className='mt-[77px]' style={{ position: 'absolute', width: '100%', height: '100%'}}>
+            <div className='mt-[87px]' style={{ position: 'absolute', width: '100%', height: '100%'}}>
                 <object
                     data={pdfUrl}
                     type="application/pdf"
