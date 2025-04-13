@@ -29,9 +29,9 @@ function Home() {
                             // Same substring at the start will only be typed out once, initially
                             'Software Developer',
                             2000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'Frontend Trainne',
+                            'Front-End Developer Jr',
                             2000,
-                            'Data Engineer Trainne',
+                            'Programador Jr',
                             2000
                           ]}
                           wrapper="span"
@@ -43,7 +43,7 @@ function Home() {
                 </div>
                   <p className='mx-auto max-w-[500px] text-slate-300 font-semibold text-lg'>
                   Apasionado de la programación y desarrollo de software, con habilidades en Git, GitHub, HTML, CSS,
-                  JavaScript, React, Linux, Excel, MySQL, SQL Server.
+                  JavaScript, React, Go, Nodejs Linux, Excel, MySQL, SQL Server, PHP.
                   </p>
                   <div className='my-5 flex gap-5'>
                     <DownloadButton />
