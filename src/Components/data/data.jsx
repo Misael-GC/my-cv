@@ -1,5 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGit, FaGithub, FaTerminal, FaNpm, FaBootstrap, FaFileExcel, FaLinux } from 'react-icons/fa';
-import { SiTailwindcss, SiMysql, SiDjango, SiMicrosoftsqlserver } from 'react-icons/si';
+import { SiTailwindcss, SiMysql, SiDjango } from 'react-icons/si';
+import { TbDatabase } from 'react-icons/tb';
 import { FaGolang } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -25,7 +26,7 @@ export const skillsData = [
       // { name: "Laravel", icon: <FaLaravel size={25} /> },
       // { name: "ExpressJS", icon: <SiExpress size={25} /> },
       { name: "MySQL", icon: <SiMysql size={35} color='#1a839b'/> },
-      { name: "SQL Server", icon: <SiMicrosoftsqlserver size={35} color='#c1231f'/> },
+      { name: "SQL Server", icon: <TbDatabase size={35} color='#c1231f'/> },
       // { name: "MongoDB", icon: <SiMongodb size={25} /> },
       // { name: "Nginx", icon: <SiNginx size={25} /> },
        { name: "Django", icon: <SiDjango size={25} color='#0c4b33'/> }
