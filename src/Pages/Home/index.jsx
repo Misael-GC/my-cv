@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       <Layout>
-        <main
+        <section
           className="min-h-fit md:min-h-[85vh] flex items-center justify-center"
           id="home"
         >
@@ -54,7 +54,7 @@ function Home() {
                 <div className="my-5 flex gap-5">
                   <DownloadButton />
                   <a
-                    className="text-gradient btn-link hover:bg-black hover:text-white text-black px-4 py-2 rounded bg-gray-200 border-2  border-white transition-all"
+                    className="text-gradient btn-link hover:bg-black hover:text-white text-black px-4 py-2 rounded bg-gray-200 border-2  border-white transition-all text-center "
                     href="https://wa.me/522213061486"
                     target="_blank"
                   >
@@ -68,7 +68,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </main>
+        </section>
         {/*---------------------------------------Aqui meter las demas secciones------------------------------------- */}
         <section className="min-h-[100vh] lg:min-h-[78vh] flex items-center justify-center mt-5" id="about-me">
           <div className="container mx-auto">
