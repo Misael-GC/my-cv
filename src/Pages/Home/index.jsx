@@ -3,7 +3,9 @@ import { TypeAnimation } from "react-type-animation";
 import DownloadButton from "../../Components/Download/index";
 import Perfilimag from "../../Components/Perfilimag";
 import CoverParticles from "../../Components/Cover-particle";
-import TimeLine from '../../Components/TimeLine';
+import TimeLine from "../../Components/TimeLine";
+import Skills from "../../Components/Skills";
+import PortfolioCard from "../../Components/PortfolioCard";
 import "./index.css";
 
 function Home() {
@@ -45,8 +47,9 @@ function Home() {
                 </div>
                 <p className="mx-auto max-w-[500px] text-slate-300 font-semibold text-lg">
                   Apasionado de la programación y desarrollo de software, con
-                  habilidades en Linux, Servidores, Docker, Git, GitHub, HTML, CSS, JavaScript, React, Laravel,
-                  Excel, MySQL, SQL Server, PHP, Cloudflare.
+                  habilidades en Linux, Servidores, Docker, Git, GitHub, HTML,
+                  CSS, JavaScript, React, Laravel, Excel, MySQL, SQL Server,
+                  PHP, Cloudflare.
                 </p>
                 <div className="my-5 flex gap-5">
                   <DownloadButton />
@@ -65,32 +68,67 @@ function Home() {
               </div>
             </div>
           </div>
-
         </main>
-          {/*---------------------------------------Aqui meter las demas secciones------------------------------------- */}
-          <section className="min-h-[100vh] lg:min-h-[78vh] flex items-center justify-center mt-5">
-            <div className="container mx-auto">
-              <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-8 mx-auto ml-3">
-                <div className="mb-[130px] md:mb-0">
-                  {" "}
-                  <div className="flex flex-col mx-auto items-center md:items-start">
-                    <h2 className="text-slate-300 font-bold text-3xl ml-5 md:ml-0 md:mb-7">
-                      Sobre mí
-                    </h2>
-                    <p className="py-7 mx-auto max-w-[600px] text-slate-300 font-semibold text-lg">
-                      Soy un entusiasta de la programación con un firme
-                      compromiso en mejorar mis habilidades en el desarrollo de
-                      software.
-                      <br />
-                      Tengo experiencia en los siguientes puestos:
-                      {/* <Database  className='w-10'/> */}
-                    </p>
-                  </div>
-                  <TimeLine />
+        {/*---------------------------------------Aqui meter las demas secciones------------------------------------- */}
+        <section className="min-h-[100vh] lg:min-h-[78vh] flex items-center justify-center mt-5" id="about-me">
+          <div className="container mx-auto">
+            <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-8 mx-auto ml-3">
+              <div className="mb-[130px] md:mb-0">
+                {" "}
+                <div className="flex flex-col mx-auto items-start">
+                  <h2 className="text-slate-300 font-bold text-3xl  md:ml-0 md:mb-7">
+                    Sobre mí
+                  </h2>
+                  <p className="py-7 mx-auto max-w-[600px] text-slate-300 font-semibold text-lg">
+                    Soy un entusiasta de la programación con un firme compromiso
+                    en mejorar mis habilidades en el desarrollo de software.
+                    <br />
+                    Tengo experiencia en los siguientes puestos:
+                    {/* <Database  className='w-10'/> */}
+                  </p>
                 </div>
+                <TimeLine />
               </div>
             </div>
-          </section>
+          </div>
+        </section>
+        {/* tecnologías */}
+        <section className="mb-10 mt-3" id="what-do">
+          <div className="flex flex-col items-start justify-center pl-4 w-auto">
+            <h2 className="text-slate-300 font-bold text-3xl mb-4">
+              Tecnologías
+            </h2>
+            <p className="flex flex-wrap px-2 max-w-[900px] py-7 mx-auto text-slate-300 font-semibold text-lg">
+              En mi viaje por el mundo del desarrollo de software, he adquirido
+              habilidades en una variedad de tecnologías frontend como HTML,
+              CSS, y ReactJS, Tailwind y backend como Django, PHP, Laravel,
+              MySQL, SQL, Docker y Cloudflare. Además, continúo aprendiendo
+              nuevas herramientas para mantenerme actualizado en el campo.
+            </p>
+          </div>
+          <Skills />
+        </section>
+
+        {/* Portafolio */}
+        <section className="mb-10 mt-3" id="portfolio">
+          <div className="flex flex-col items-start justify-center pl-4 w-auto">
+            <h2 className="text-slate-300 font-bold text-3xl mb-4">
+              Portafolio
+            </h2>
+            <p className="flex flex-wrap px-2 max-w-[900px] py-7 mx-auto text-slate-300 font-semibold text-lg">
+              En mi aprendizaje he desarrollado diferentes proyectos, donde he desarrollado y mejorado mis habilidades en los diferentes lenguajes donde aplico mis 
+            conocimientos en el desarrollo de aplicaciones web y aplicaciones móviles.
+            <br/>
+            <br/> - Basico: proyectos de maquetación con HTML, CSS y JavaScript
+            <br/> - Intermedio: proyectos donde implemento librerias com Taildwind, Bootstrap y React
+            <br/> - Avanzado: proyectos donde implemento librerias Frontend y Backend
+            </p>
+          </div>
+          {/* <Skills /> */}
+        </section>
+        <section className="mb-40"> 
+          <PortfolioCard />
+        </section>
       </Layout>
     </>
   );

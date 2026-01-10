@@ -9,7 +9,7 @@ function Portafolio() {
   return (
     <>
       <Layout>
-      <section className='mt-3 md:mb-[135px] mb-[130px] '>
+      <section className='mt-3 md:mb-[135px] mb-[130px] w-full'> 
           <CoverParticles/>
           <div className='flex flex-col items-start justify-center pl-4 w-auto '>
             <h2 className='text-slate-300 font-bold text-3xl mb-4 lg:pl-32'>Portafolio</h2>

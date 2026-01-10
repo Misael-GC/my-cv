@@ -3,7 +3,6 @@ import { dataPortfolioFilter } from "../data/data"
 import './index.css'
 
 
-
 const Card = ({ title, image, urlGithub, urlDemo, descripcion, date }) => {
     return (
         <div className="relative border border-gray-300 rounded-lg text-center bg-[#2D2F3B] text-white overflow-hidden">
@@ -64,8 +63,8 @@ const PortfolioCard = () => {
     const filteredProjects = getFilteredProjects();
 
     return (
-        <div>
-            <div className="mb-4 text-center custom-button-container">
+        <div className="w-full">
+            <div className="mb-8 flex flex-wrap justify-center gap-2 custom-button-container">
                 <button
                     className={`bg-gray-700 text-white border-none px-4 py-2 rounded mr-2 ${filter === 'todos' && 'bg-secondary'}`}
                     onClick={() => setFilter('todos')}
