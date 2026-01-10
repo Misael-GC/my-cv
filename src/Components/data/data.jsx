@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGit, FaGithub, FaTerminal, FaNpm, FaBootstrap, FaFileExcel, FaLinux } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGit, FaGithub, FaTerminal, FaNpm, FaBootstrap, FaFileExcel, FaLinux, FaPhp } from 'react-icons/fa';
 import { SiTailwindcss, SiMysql, SiDjango } from 'react-icons/si';
 import { TbDatabase } from 'react-icons/tb';
 import { FaGolang } from "react-icons/fa6";
@@ -21,7 +21,7 @@ export const skillsData = [
   {
     category: "Backend",
     skills: [
-      // { name: "PHP", icon: <FaPhp size={25} /> },
+      { name: "PHP", icon: <FaPhp size={25} /> },
       { name: "Python", icon: <FaPython size={25} color='#f6d144'/> },
       // { name: "Laravel", icon: <FaLaravel size={25} /> },
       // { name: "ExpressJS", icon: <SiExpress size={25} /> },
@@ -61,13 +61,13 @@ export const dataAboutPage = [
         title: "Auxiliar Técnico",
         subtitle: "Optima Capacitación",
         description: "Mantenimiento preventivo y correctivo, instalación de S.O, drivers, desbloqueo de usuarios, respaldos de información",
-        date_inicio: "Jun 2023 ",
+        date_inicio: "Dic 2022 ",
     },
     {
         id: 1,
-        title: "Practicante en desarrollo de software",
+        title: "Desarrollo de software y soporte TI",
         subtitle: "Xube Soluciones Tecnológicas",
-        description: "Reportes utilizando consultas SQL, documentación de procesos, análisis de código para hacer pequeñas modificaciones a software de la empresa, comprensión de algoritmos para el desarrollo del sistema, diccionario de datos y respaldos de información",
+        description: "Reportes utilizando consultas SQL, documentación de procesos, análisis de código para hacer pequeñas modificaciones a software de la empresa, comprensión de algoritmos para el desarrollo del sistema, diccionario de datos, respaldos de información y soporte técnico a equipos de cómputo",
         date_inicio: "Nov 2023 ",
     },
     {
@@ -79,10 +79,17 @@ export const dataAboutPage = [
     },
     {
         id: 3,
-        title: "Desarrollo Frontend",
-        subtitle: "Aprendizaje autodidacta",
-        description: "Maquetación web, HTML, CSS, Bootstrap, Tailwind, npm, JS, React, Hooks, páginas interactivas, despliegue de páginas, consumo de APIs",
-        date_inicio: "Mar 2022",
+        title: "Desarrollo Full Stack jr",
+        subtitle: "Servicios e Insumos Prosman",
+        description: "Despliegue y desarrollo de aplicaciones web con HTML, CSS, Bootstrap, JS, PHP, MySQL, consumo de APIs",
+        date_inicio: "Ago 2024",
+    },
+    {
+        id: 4,
+        title: "Desarrollo Full Stack",
+        subtitle: "Freelance",
+        description: "Despliegue y desarrollo de aplicaciones web con Docker, PHP, MySQL, JavaScript, React, Bootstrap, TailwindCSS",
+        date_inicio: "Nov 2025",
     },
 ]
 
