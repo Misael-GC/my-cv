@@ -4,9 +4,21 @@ import DownloadButton from "../../Components/Download/index";
 import Perfilimag from "../../Components/Perfilimag";
 import CoverParticles from "../../Components/Cover-particle";
 import TimeLine from "../../Components/TimeLine";
-import Skills from "../../Components/Skills";
-import PortfolioCard from "../../Components/PortfolioCard";
+import {lazy, Suspense} from "react";
 import "./index.css";
+
+const PortfolioCard = lazy(() => import("../../Components/PortfolioCard"));
+const Skills = lazy(() => import("../../Components/Skills"));
+
+
+const SKeletonCard = () =>(
+  <div className="animate-pulse">
+    <div className="bg-gray-700 h-48 rounded-lg mb-4"></div>
+    <div className="h-4 bg-gray-600 rounded w-3/4 mb-2"></div>
+    <div className="h-4 bg-gray-600 rounded w-1/2"></div>
+  </div>
+);
+
 
 function Home() {
   return (
@@ -106,7 +118,9 @@ function Home() {
               nuevas herramientas para mantenerme actualizado en el campo.
             </p>
           </div>
+          <Suspense fallback={<div className="text-center text-slate-400">Cargando habilidades...</div>}>
           <Skills />
+          </Suspense>
         </section>
 
         {/* Portafolio */}
@@ -126,9 +140,15 @@ function Home() {
           </div>
           {/* <Skills /> */}
         </section>
+        <Suspense fallback={
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {<SKeletonCard />}
+          </div>
+        }>
         <section className="mb-40"> 
           <PortfolioCard />
         </section>
+        </Suspense>
       </Layout>
     </>
   );

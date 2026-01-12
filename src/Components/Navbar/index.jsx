@@ -10,7 +10,7 @@ function Navbar() {
   React.useEffect(() => {
     const handleScroll = () => {
       const sections = ["home", "about-me", "what-do", "portfolio"];
-      const scrollPosition = window.scrollY + 100;
+      const scrollPosition = window.scrollY + 200;
 
       sections.forEach((section) => {
         const element = document.getElementById(section);
@@ -60,6 +60,7 @@ function Navbar() {
           href="https://www.linkedin.com/in/misael-g%C3%B3mez-cuautle-5976491b9/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visita mi LinkedIn"
           className="hover:text-gray-400  border-4 border-transparent hover:border-white transition-all inline-blockhover:border-white transition-all inline-block "
         >
           <FaLinkedin className="w-5 h-5" />
@@ -68,6 +69,7 @@ function Navbar() {
           href="https://x.com/MisaelG51069440"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visita mi Twitter"
           className="hover:text-gray-400 border-4 border-transparent hover:border-white transition-all inline-block"
         >
           <TfiTwitterAlt className="w-5 h-5" />
@@ -76,6 +78,7 @@ function Navbar() {
           href="https://github.com/Misael-GC"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visita mi GitHub"
           className="hover:text-gray-400 border-4 border-transparent hover:border-white transition-all inline-block"
         >
           <ImGithub className="w-5 h-5" />
