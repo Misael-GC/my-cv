@@ -9,7 +9,7 @@ function Navbar() {
 
   React.useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about-me", "what-do", "portfolio"];
+      const sections = ["home", "experience", "education", "what-do", "portfolio"];
       const scrollPosition = window.scrollY + 200;
 
       sections.forEach((section) => {
@@ -31,10 +31,12 @@ function Navbar() {
 
   const navItems = [
     { id: "home", label: "Inicio" },
-    { id: "about-me", label: "Sobre mi" },
+    { id: "experience", label: "Experiencia" },
+    {id: "education", label: "Educación"},
     { id: "what-do", label: "Habilidades" },
     { id: "portfolio", label: "Portafolio" },
   ];
+
 
   return (
     <nav className="flex bg-[#1f1934] text-white p-7 justify-between items-center fixed z-10 w-full top-0">

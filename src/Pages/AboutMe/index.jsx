@@ -2,7 +2,7 @@ import Layout from '../../Components/Layout';
 import SEO from '../../Components/SEO';
 import './index.css';
 import CoverParticles from '../../Components/Cover-particle';
-import TimeLine from '../../Components/TimeLine';
+// import TimeLine from '../../Components/TimeLine';
 
 function AboutMe() {
   return (
@@ -23,10 +23,10 @@ function AboutMe() {
                   <h2 className="text-slate-300 font-bold text-3xl">Sobre mí</h2>
                   <p className="py-7 mx-auto max-w-[525px] text-slate-300 font-semibold text-lg">
                     Soy un entusiasta de la programación con un firme compromiso en mejorar mis habilidades en el desarrollo de software.
-                    <br />Tengo experiencia en los siguientes puestos:
+                    Con una curiosidad insaciable por las nuevas tecnologías, siempre busco aprender y aplicar conocimientos que me permitan crear soluciones innovadoras y eficientes.
                   </p>
                 </div>
-                    <TimeLine />
+                    {/* <TimeLine /> */}
               </div>
             </div>
           </div>

@@ -2,11 +2,9 @@ import { skillsData } from '../data/data';
 import React, { useState } from "react";
 
 function Skills() {
-  // 1. El estado va AQUÍ, dentro de la función
+  
   const [showAll, setShowAll] = useState(false);
 
-  // 2. Aquí puedes filtrar tus datos si lo necesitas
-  // Por ejemplo, mostrar solo las primeras 2 categorías si showAll es false
   const displayedSkills = showAll ? skillsData : skillsData.slice(0, 2);
 
   return (

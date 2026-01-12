@@ -11,7 +11,7 @@ const TechSection = () => (
             <h2 className="text-slate-300 font-bold text-3xl mb-4">
               Tecnologías
             </h2>
-            <p className="flex flex-wrap px-2 max-w-[900px] py-7 mx-auto text-slate-300 font-semibold text-lg">
+            <p className="flex flex-wrap px-2 max-w-[900px] py-7 mx-auto text-slate-400 text-lg max-w-2xl">
               En mi viaje por el mundo del desarrollo de software, he adquirido
               habilidades en una variedad de tecnologías frontend como HTML,
               CSS, y ReactJS, Tailwind y backend como Django, PHP, Laravel,
@@ -27,3 +27,4 @@ const TechSection = () => (
 );
 
 export default TechSection;
+

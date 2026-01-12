@@ -215,7 +215,7 @@ pnpm deploy
 
 ## 🔗 Links
 
-- **Portfolio**: [https://misael-gomez.dev](https://misael-gomez.dev)
+- **Portfolio**: [https://misael-gomez.dev](https://misael-gomez-cuautle.netlify.app/)
 - **LinkedIn**: [linkedin.com/in/misael-gómez-cuautle](https://www.linkedin.com/in/misael-g%C3%B3mez-cuautle-5976491b9/)
 - **GitHub**: [github.com/Misael-GC](https://github.com/Misael-GC)
 - **Twitter**: [@MisaelG51069440](https://x.com/MisaelG51069440)

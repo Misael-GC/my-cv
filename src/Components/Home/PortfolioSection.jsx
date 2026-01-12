@@ -19,7 +19,7 @@ const PortfolioSection = () => (
             <h2 className="text-slate-300 font-bold text-3xl mb-4">
               Portafolio
             </h2>
-            <p className="flex flex-wrap px-2 max-w-[900px] py-7 mx-auto text-slate-300 font-semibold text-lg">
+            <p className="flex flex-wrap px-2 max-w-[900px] py-7 text-slate-400 text-lg max-w-2xl mx-auto">
               En mi aprendizaje he desarrollado diferentes proyectos, donde he desarrollado y mejorado mis habilidades en los diferentes lenguajes donde aplico mis 
             conocimientos en el desarrollo de aplicaciones web y aplicaciones móviles.
             <br/>
