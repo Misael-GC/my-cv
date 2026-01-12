@@ -90,7 +90,7 @@ const PortfolioCard = () => {
                     Avanzados
                 </button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto md:px-40">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:px-5 lg:px-40">
                 {filteredProjects.map(project => (
                     <Card key={project.id} title={project.title} image={project.image}  urlGithub={project.urlGithub} urlDemo={project.urlDemo} descripcion={project.descripcion} date={project.date}/>
                 ))}
