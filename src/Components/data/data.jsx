@@ -38,9 +38,9 @@ export const skillsData = [
     skills: [
     //   { name: "NodeJS", icon: <FaNodeJs size={25} color='#58a846'/> },
     //   { name: "Golang", icon: <FaGolang size={30} color='#00ffff'/> },
-      { name: "Postgrest", icon: <BiLogoPostgresql  size={35}  color='#2e5e8b'/> },
-      { name: "Docker", icon: <FaDocker size={25} /> },
-      { name: "Cloudflare", icon: <TbBrandCloudflare size={25} color='#ff6633'/> },
+    { name: "Docker", icon: <FaDocker size={25} /> },
+    { name: "Cloudflare", icon: <TbBrandCloudflare size={25} color='#ff6633'/> },
+    { name: "Postgrest", icon: <BiLogoPostgresql  size={35}  color='#2e5e8b'/> },
 
     ]
   },

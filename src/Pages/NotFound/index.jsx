@@ -1,10 +1,15 @@
-
 import './index.css'
 import Layout from '../../Components/Layout'
-function NotFound() {
+import SEO from '../../Components/SEO'
 
+function NotFound() {
   return (
     <>
+      <SEO 
+        title="404 - Página no encontrada"
+        description="La página que buscas no existe. Regresa al inicio para explorar mi portafolio de desarrollo web."
+        url="https://misael-gomez.dev/404"
+      />
       <Layout>
         <div className='notfound-container flex flex-col justify-center items-center h-48 mt-40'>
           <h1 className='notfound-title text-4xl'>404</h1>

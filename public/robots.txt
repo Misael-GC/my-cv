@@ -1,0 +1,16 @@
+# robots.txt para Portafolio de Misael Gómez Cuautle
+
+# Permitir acceso a todos los bots
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://misael-gomez.dev/sitemap.xml
+
+# Bloquear archivos innecesarios
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.map$
+
+# Crawl-delay (opcional, algunos bots lo respetan)
+# Crawl-delay: 1

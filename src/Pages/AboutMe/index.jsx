@@ -1,13 +1,18 @@
 import Layout from '../../Components/Layout';
-//import Perfilimag from '../../Components/Perfilimag';
+import SEO from '../../Components/SEO';
 import './index.css';
 import CoverParticles from '../../Components/Cover-particle';
 import TimeLine from '../../Components/TimeLine';
-//import { Database } from '@react-symbols/icons';
 
 function AboutMe() {
   return (
     <>
+      <SEO 
+        title="Sobre mí"
+        description="Conoce mi trayectoria profesional como desarrollador Full Stack. Experiencia en desarrollo web con React, Laravel, PHP y gestión de servidores."
+        keywords="sobre mí, experiencia laboral, trayectoria profesional, desarrollador full stack, react developer, php developer"
+        url="https://misael-gomez.dev/about-me"
+      />
       <Layout>
         <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center justify-center mt-3 '>
           <div className="container mx-auto">
@@ -19,7 +24,6 @@ function AboutMe() {
                   <p className="py-7 mx-auto max-w-[525px] text-slate-300 font-semibold text-lg">
                     Soy un entusiasta de la programación con un firme compromiso en mejorar mis habilidades en el desarrollo de software.
                     <br />Tengo experiencia en los siguientes puestos:
-                  {/* <Database  className='w-10'/> */}
                   </p>
                 </div>
                     <TimeLine />
