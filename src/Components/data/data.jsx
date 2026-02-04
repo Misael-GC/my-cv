@@ -177,12 +177,12 @@ export const dataPortfolioFilter = {
       },
       {
           id: 3,
-          title: "Gogo Travel",
-          image: "https://static.platzi.com/media/porfilio/tailwind_29b961e4-7e3d-48f0-b0dc-3151501e74f7.png",
-          urlGithub: "https://github.com/Misael-GC/tailwind",
-          urlDemo: "https://misael-gc.github.io/tailwind/",
-          descripcion: "Landing page construido con HTML, JavaScript y Tailwind ",
-          date:"Ago 2022"
+          title: "Super Mario",
+          image: "https://i.pinimg.com/736x/1e/a1/f7/1ea1f782bdf5cfd4dc7a42ed447c3989.jpg",
+          urlGithub: "https://github.com/misaelgocu/super-mario-bross/tree/main",
+          urlDemo: "https://mario-faser.netlify.app/",
+          descripcion: "Videojuego construido con HTML, CSS, JavaScript y phaser.js",
+          date:"Feb 2026"
       },
       {
         id: 4,
@@ -244,6 +244,15 @@ export const dataPortfolioFilter = {
       },
       {
           id: 10,
+          title: "ERP Demo",
+          image: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/6970e0c543e3d00008d4b81f/screenshot_2026-01-21-14-21-23-0000.webp&fit=cover&h=500&q=40&w=800",
+          urlGithub: "https://github.com/misaelgocu/kfc_front",
+          urlDemo: "https://kfc-erp.netlify.app/",
+          descripcion: "CRUD con React del lado del cliente, consumo de API RESTful con python (Django) del lado del servidor, base de datos SQLite",
+          date:"Enero 2026"
+      },
+      {
+          id: 11,
           title: "En construcción",
           image: "https://programacion.net/files/article/article_03289_.jpg",
           urlGithub: "#",
