@@ -247,7 +247,7 @@ export const dataPortfolioFilter = {
           title: "ERP Demo",
           image: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/6970e0c543e3d00008d4b81f/screenshot_2026-01-21-14-21-23-0000.webp&fit=cover&h=500&q=40&w=800",
           urlGithub: "https://github.com/misaelgocu/kfc_front",
-          urlDemo: "https://kfc-erp.netlify.app/",
+          urlDemo: "https://erp-demo-mgc.netlify.app",
           descripcion: "CRUD con React del lado del cliente, consumo de API RESTful con python (Django) del lado del servidor, base de datos SQLite",
           date:"Enero 2026"
       },
