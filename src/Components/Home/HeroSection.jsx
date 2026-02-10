@@ -33,9 +33,9 @@ const HeroSection = () => (
             </h2>
             <TypeAnimation
               sequence={[
-                "Laravel Development",
+                "Web Development",
                 2000,
-                "PHP Backend Expert",
+                "Backend con PHP, Python y Node",
                 2000,
                 "Frontend con React & Bootstrap",
                 2000,
