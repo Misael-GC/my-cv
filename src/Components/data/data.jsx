@@ -184,24 +184,24 @@ export const dataPortfolioFilter = {
           descripcion: "Videojuego construido con HTML, CSS, JavaScript y phaser.js",
           date:"Feb 2026"
       },
-      {
-        id: 4,
-        title: "Presentación",
-        image: "https://static.platzi.com/media/porfilio/post_0c73e483-038b-4dfe-bc76-8bfbebe5f84e.png",
-        urlGithub: "https://github.com/Misael-GC/webppack-intro?tab=readme-ov-file",
-        urlDemo: "https://animated-crepe-564650.netlify.app/",
-        descripcion: "Manipulación del DOM, configuraciones con webpack, scripts en json, uso de paquetes npm, despliegue de página",
-        date:"Sep 2022"
-      },
-       {
-           id: 5,
-           title: "Pokedex",
-           image: "https://static.platzi.com/media/porfilio/pokedex_311851f8-6ed1-4935-b725-3cc3aa7706af.png",
-           urlGithub: "https://github.com/Misael-GC/pokedex",
-           urlDemo: "https://comforting-gaufre-7f630b.netlify.app/",
-           descripcion: "Llamado a una API de Pokemon, Bootstrap y manipulación del DOM",
-           date:"Ago 2022"
-       }
+    //   {
+    //     id: 4,
+    //     title: "Presentación",
+    //     image: "https://static.platzi.com/media/porfilio/post_0c73e483-038b-4dfe-bc76-8bfbebe5f84e.png",
+    //     urlGithub: "https://github.com/Misael-GC/webppack-intro?tab=readme-ov-file",
+    //     urlDemo: "https://animated-crepe-564650.netlify.app/",
+    //     descripcion: "Manipulación del DOM, configuraciones con webpack, scripts en json, uso de paquetes npm, despliegue de página",
+    //     date:"Sep 2022"
+    //   },
+    //    {
+    //        id: 5,
+    //        title: "Pokedex",
+    //        image: "https://static.platzi.com/media/porfilio/pokedex_311851f8-6ed1-4935-b725-3cc3aa7706af.png",
+    //        urlGithub: "https://github.com/Misael-GC/pokedex",
+    //        urlDemo: "https://comforting-gaufre-7f630b.netlify.app/",
+    //        descripcion: "Llamado a una API de Pokemon, Bootstrap y manipulación del DOM",
+    //        date:"Ago 2022"
+    //    }
   ],
   intermedio: [
       {
@@ -213,15 +213,15 @@ export const dataPortfolioFilter = {
           descripcion: "Creación de componentes, manejo del estado con React Hooks y eventos para la interacción con los usuarios",
           date:"Jul 2022"
       },
-      {
-          id: 7,
-          title: "ToDos V2",
-          image: "https://pbs.twimg.com/media/GSepem2WIAARZAG?format=png&name=small",
-          urlGithub: "https://github.com/Misael-GC/curso-react-intro",
-          urlDemo: "https://misael-gc.github.io/curso-react-intro/",
-          descripcion: "Creación de componentes, comunicar componentes, eventos en react, estados, local storage, custom hooks, loading skeletons, useContext, portals",
-          date:"Oct 2023"
-      },
+    //   {
+    //       id: 7,
+    //       title: "ToDos V2",
+    //       image: "https://pbs.twimg.com/media/GSepem2WIAARZAG?format=png&name=small",
+    //       urlGithub: "https://github.com/Misael-GC/curso-react-intro",
+    //       urlDemo: "https://misael-gc.github.io/curso-react-intro/",
+    //       descripcion: "Creación de componentes, comunicar componentes, eventos en react, estados, local storage, custom hooks, loading skeletons, useContext, portals",
+    //       date:"Oct 2023"
+    //   },
       // {
       //     id: 8,
       //     title: "",
@@ -233,15 +233,15 @@ export const dataPortfolioFilter = {
       // },
   ],
   avanzado: [
-      {
-          id: 9,
-          title: "Frontend Page",
-          image: "https://static.platzi.com/media/porfilio/page_1f96b10e-a6ce-4bbe-8267-73ebf4523f1d.png",
-          urlGithub: "https://github.com/Misael-GC/next-js",
-          urlDemo: "https://next-js-git-pwa-misael-gc.vercel.app/",
-          descripcion: "Conexión del Frontend y Backend, trabajar con Next.js, configuraciones y estructura de la página ",
-          date:"Nov 2022"
-      },
+    //   {
+    //       id: 9,
+    //       title: "Frontend Page",
+    //       image: "https://static.platzi.com/media/porfilio/page_1f96b10e-a6ce-4bbe-8267-73ebf4523f1d.png",
+    //       urlGithub: "https://github.com/Misael-GC/next-js",
+    //       urlDemo: "https://next-js-git-pwa-misael-gc.vercel.app/",
+    //       descripcion: "Conexión del Frontend y Backend, trabajar con Next.js, configuraciones y estructura de la página ",
+    //       date:"Nov 2022"
+    //   },
       {
           id: 10,
           title: "ERP Demo",
