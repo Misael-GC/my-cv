@@ -21,9 +21,8 @@ const HeroSection = () => (
 
           {/* Descripción concisa */}
           <p className="mx-auto max-w-[600px] font-medium text-base md:text-lg mb-6 text-slate-400 max-w-2xl">
-            Desarrollador Full Stack con experiencia en la creación de aplicaciones web modernas. 
+            Desarrollador Full Stack con experiencia en la creación de aplicaciones web modernas, con dominio en JS, PHP, Python, Docker, SQL y arquitecturas escalables.
             {/* Especializado en <span className="text-secondary font-semibold">PHP</span>,  */}
-            con dominio en JS, PHP, Python, Docker, SQL y arquitecturas escalables.
           </p>
 
            {/* Habilidad principal clara */}
