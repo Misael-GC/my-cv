@@ -1,6 +1,23 @@
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGit, FaGithub, FaTerminal, FaNpm, FaBootstrap, FaFileExcel, FaLinux, FaPhp, FaDocker, FaLaravel } from 'react-icons/fa';
-import { SiTailwindcss, SiMysql, SiDjango } from 'react-icons/si';
-import { TbDatabase } from 'react-icons/tb';
+ import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaNodeJs,
+  FaPython,
+  FaGit,
+  FaGithub,
+  FaTerminal,
+  FaNpm,
+  FaBootstrap,
+  FaFileExcel,
+  FaLinux,
+  FaPhp,
+  FaDocker,
+  FaLaravel,
+} from "react-icons/fa";
+import { SiTailwindcss, SiMysql, SiDjango } from "react-icons/si";
+import { TbDatabase } from "react-icons/tb";
 import { FaGolang } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandCloudflare } from "react-icons/tb";
@@ -9,181 +26,201 @@ export const skillsData = [
   {
     category: "Frontend",
     skills: [
-      { name: "HTML", icon: <FaHtml5 size={25} color='#e34f26' /> },
-      { name: "CSS", icon: <FaCss3Alt size={25} color='#44b7e9'/> },
-      { name: "JavaScript", icon: <FaJsSquare size={25} color='#F9F907'/> },
-      { name: "React", icon: <FaReact size={25} color='#58c4dc'/> },
-      { name: "Tailwind", icon: <SiTailwindcss size={25} color='rgb(14 207 207)' /> },
-      { name: "Bootstrap", icon: <FaBootstrap size={25} color='#7610f6'/> }
+      { name: "HTML", icon: <FaHtml5 size={25} color="#e34f26" /> },
+      { name: "CSS", icon: <FaCss3Alt size={25} color="#44b7e9" /> },
+      { name: "JavaScript", icon: <FaJsSquare size={25} color="#F9F907" /> },
+      { name: "React", icon: <FaReact size={25} color="#58c4dc" /> },
+      {
+        name: "Tailwind",
+        icon: <SiTailwindcss size={25} color="rgb(14 207 207)" />,
+      },
+      { name: "Bootstrap", icon: <FaBootstrap size={25} color="#7610f6" /> },
       // { name: "SASS", icon: <FaSass size={25} /> },
       // { name: "Figma", icon: <FaFigma size={25} /> }
-    ]
+    ],
   },
   {
     category: "Backend",
     skills: [
-      { name: "PHP", icon: <FaPhp size={25} color='#6a78be'/> },
-      { name: "Python", icon: <FaPython size={25} color='#f6d144'/> },
-      { name: "Laravel", icon: <FaLaravel size={25} color='#c1231f'/> },
+      { name: "PHP", icon: <FaPhp size={25} color="#6a78be" /> },
+      { name: "Python", icon: <FaPython size={25} color="#f6d144" /> },
+      { name: "Laravel", icon: <FaLaravel size={25} color="#c1231f" /> },
       // { name: "ExpressJS", icon: <SiExpress size={25} /> },
-      { name: "MySQL", icon: <SiMysql size={35} color='#1a839b'/> },
-      { name: "SQL", icon: <TbDatabase size={35} color='#c1231f'/> },
+      { name: "MySQL", icon: <SiMysql size={35} color="#1a839b" /> },
+      { name: "SQL", icon: <TbDatabase size={35} color="#c1231f" /> },
       // { name: "MongoDB", icon: <SiMongodb size={25} /> },
       // { name: "Nginx", icon: <SiNginx size={25} /> },
-       { name: "Django", icon: <SiDjango size={25} color='#0c4b33'/> }
-    ]
+      { name: "Django", icon: <SiDjango size={25} color="#0c4b33" /> },
+    ],
   },
-  { 
+  {
     category: "Aprendiendo",
     skills: [
-    //   { name: "NodeJS", icon: <FaNodeJs size={25} color='#58a846'/> },
-    //   { name: "Golang", icon: <FaGolang size={30} color='#00ffff'/> },
-    { name: "Docker", icon: <FaDocker size={25} /> },
-    { name: "Cloudflare", icon: <TbBrandCloudflare size={25} color='#ff6633'/> },
-    { name: "Postgrest", icon: <BiLogoPostgresql  size={35}  color='#2e5e8b'/> },
-
-    ]
+      //   { name: "NodeJS", icon: <FaNodeJs size={25} color='#58a846'/> },
+      //   { name: "Golang", icon: <FaGolang size={30} color='#00ffff'/> },
+      { name: "Docker", icon: <FaDocker size={25} /> },
+      {
+        name: "Cloudflare",
+        icon: <TbBrandCloudflare size={25} color="#ff6633" />,
+      },
+      {
+        name: "Postgrest",
+        icon: <BiLogoPostgresql size={35} color="#2e5e8b" />,
+      },
+    ],
   },
   {
     category: "Herramientas",
     skills: [
-      { name: "Git", icon: <FaGit size={25} color='#e84d31' /> },
+      { name: "Git", icon: <FaGit size={25} color="#e84d31" /> },
       { name: "GitHub", icon: <FaGithub size={25} /> },
       { name: "Terminal", icon: <FaTerminal size={25} /> },
-      { name: "npm", icon: <FaNpm size={25} color='#cb0000'/> },
+      { name: "npm", icon: <FaNpm size={25} color="#cb0000" /> },
       { name: "Linux", icon: <FaLinux size={30} /> },
-      { name: "Excel", icon: <FaFileExcel  size={25} color='#1d6a3f' /> },
+      { name: "Excel", icon: <FaFileExcel size={25} color="#1d6a3f" /> },
       // { name: "WordPress", icon: <FaWordpress size={25} /> }
-    ]
-  }
+    ],
+  },
 ];
 
 export const dataAboutPage = [
-    {
-        id: 0,
-        title: "Auxiliar Técnico",
-        subtitle: "Optima Capacitación",
-        description: "Mantenimiento preventivo y correctivo, instalación de S.O, drivers, desbloqueo de usuarios, respaldos de información",
-        date_inicio: "Dic 2022 ",
-    },
-    {
-        id: 1,
-        title: "Desarrollo de software y soporte TI",
-        subtitle: "Xube Soluciones Tecnológicas",
-        description: "Reportes utilizando consultas SQL, documentación de procesos, análisis de código para hacer pequeñas modificaciones a software de la empresa, comprensión de algoritmos para el desarrollo del sistema, diccionario de datos, respaldos de información y soporte técnico a equipos de cómputo",
-        date_inicio: "Nov 2023 ",
-    },
-    {
-        id: 2,
-        title: "Data Engineer Trainee",
-        subtitle: "Beetmann",
-        description: "Consultas SQL, modificación de vistas en SQL, creación de Procesos Almacenados, actualización de diccionario de datos y  diseño de diagramas UML Entidad relación",
-        date_inicio: "Abr 2024",
-    },
-    {
-        id: 3,
-        title: "Desarrollo Full Stack jr",
-        subtitle: "Servicios e Insumos Prosman",
-        description: "Despliegue y desarrollo de aplicaciones web con HTML, CSS, Bootstrap, JS, PHP, MySQL, consumo de APIs",
-        date_inicio: "Ago 2024",
-    },
-    {
-        id: 4,
-        title: "Desarrollo Full Stack",
-        subtitle: "Freelance",
-        description: "Despliegue y desarrollo de aplicaciones web con Docker, PHP, MySQL, JavaScript, React, Bootstrap, TailwindCSS",
-        date_inicio: "Nov 2025",
-    },
-]
+  {
+    id: 0,
+    title: "Auxiliar Técnico",
+    subtitle: "Optima Capacitación",
+    description:
+      "Mantenimiento preventivo y correctivo, instalación de S.O, drivers, desbloqueo de usuarios, respaldos de información",
+    date_inicio: "Dic 2022 ",
+  },
+  {
+    id: 1,
+    title: "Desarrollo de software y soporte TI",
+    subtitle: "Xube Soluciones Tecnológicas",
+    description:
+      "Reportes utilizando consultas SQL, documentación de procesos, análisis de código para hacer pequeñas modificaciones a software de la empresa, comprensión de algoritmos para el desarrollo del sistema, diccionario de datos, respaldos de información y soporte técnico a equipos de cómputo",
+    date_inicio: "Nov 2023 ",
+  },
+  {
+    id: 2,
+    title: "Data Engineer Trainee",
+    subtitle: "Beetmann",
+    description:
+      "Consultas SQL, modificación de vistas en SQL, creación de Procesos Almacenados, actualización de diccionario de datos y  diseño de diagramas UML Entidad relación",
+    date_inicio: "Abr 2024",
+  },
+  {
+    id: 3,
+    title: "Desarrollo Full Stack jr",
+    subtitle: "Servicios e Insumos Prosman",
+    description:
+      "Despliegue y desarrollo de aplicaciones web con HTML, CSS, Bootstrap, JS, PHP, MySQL, consumo de APIs",
+    date_inicio: "Ago 2024",
+  },
+  {
+    id: 4,
+    title: "Desarrollo Full Stack",
+    subtitle: "Freelance",
+    description:
+      "Despliegue y desarrollo de aplicaciones web con Docker, PHP, MySQL, JavaScript, React, Bootstrap, TailwindCSS",
+    date_inicio: "Nov 2025",
+  },
+];
 
 export const dataPortfolio = [
-    {
-        id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
+  {
+    id: 1,
+    title: "Web Pro",
+    image: "/image-1.jpg",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 2,
+    title: "Desarrollo Web Ágil",
+    image: "/image-2.jpg",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 3,
+    title: "Estrategias Web",
+    image: "/image-3.jpg",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 4,
+    title: "Ideas Creativas",
+    image: "/image-4.jpg",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 5,
+    title: "Webs Impactantes",
+    image: "/image-5.jpg",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 6,
+    title: "Web Dinámica",
+    image: "/image-6.jpg",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 7,
+    title: "Dark Web ",
+    image: "/image-7.jpg",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 8,
+    title: "E-commerce web",
+    image: "/image-8.jpg",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
 ];
 
 export const dataPortfolioFilter = {
   básico: [
-      {
-          id: 1,
-          title: "Inflación México",
-          image: "https://static.platzi.com/media/porfilio/1st-project_92041b56-4f01-41b7-9664-73c76ab9a56c.png",
-          urlGithub: "https://github.com/Misael-GC/Inflacion-mx.github.io",
-          urlDemo: "https://misael-gc.github.io/Inflacion-mx.github.io/",
-          descripcion: "Métodos de arrays, funciones, condicionales, algoritmos, conexión de HTML con JavaScript",
-          date:" Jun 2022"
-      },
-      {
-          id: 2,
-          title: "Clon Batatabit",
-          image: "https://static.platzi.com/media/porfilio/batatabit_9e3c4de3-7d3e-40b1-8fbe-be7bfc24fb84.png",
-          urlGithub: "https://github.com/Misael-GC/Batatabit-mobile-first.github.io",
-          urlDemo: "https://misael-gc.github.io/Batatabit-mobile-first.github.io/",
-          descripcion: "Reutilizar estilos de CSS, auditoría con lighthouse, aplicar media queries para a adaptar vistas de dispositivos móviles",
-          date:"May 2022"
-      },
-      {
-          id: 3,
-          title: "Super Mario",
-          image: "https://i.pinimg.com/736x/1e/a1/f7/1ea1f782bdf5cfd4dc7a42ed447c3989.jpg",
-          urlGithub: "https://github.com/misaelgocu/super-mario-bross/tree/main",
-          urlDemo: "https://mario-faser.netlify.app/",
-          descripcion: "Videojuego construido con HTML, CSS, JavaScript y phaser.js",
-          date:"Feb 2026"
-      },
+    {
+      id: 1,
+      title: "Inflación México",
+      image:
+        "https://static.platzi.com/media/porfilio/1st-project_92041b56-4f01-41b7-9664-73c76ab9a56c.png",
+      urlGithub: "https://github.com/Misael-GC/Inflacion-mx.github.io",
+      urlDemo: "https://misael-gc.github.io/Inflacion-mx.github.io/",
+      descripcion:
+        "Métodos de arrays, funciones, condicionales, algoritmos, conexión de HTML con JavaScript",
+      date: " Jun 2022",
+    },
+    {
+      id: 2,
+      title: "Clon Batatabit",
+      image:
+        "https://static.platzi.com/media/porfilio/batatabit_9e3c4de3-7d3e-40b1-8fbe-be7bfc24fb84.png",
+      urlGithub:
+        "https://github.com/Misael-GC/Batatabit-mobile-first.github.io",
+      urlDemo: "https://misael-gc.github.io/Batatabit-mobile-first.github.io/",
+      descripcion:
+        "Reutilizar estilos de CSS, auditoría con lighthouse, aplicar media queries para a adaptar vistas de dispositivos móviles",
+      date: "May 2022",
+    },
+    {
+      id: 3,
+      title: "Super Mario",
+      image:
+        "https://i.pinimg.com/736x/1e/a1/f7/1ea1f782bdf5cfd4dc7a42ed447c3989.jpg",
+      urlGithub: "https://github.com/misaelgocu/super-mario-bross/tree/main",
+      urlDemo: "https://mario-faser.netlify.app/",
+      descripcion:
+        "Videojuego construido con HTML, CSS, JavaScript y phaser.js",
+      date: "Feb 2026",
+    },
     //   {
     //     id: 4,
     //     title: "Presentación",
@@ -204,15 +241,17 @@ export const dataPortfolioFilter = {
     //    }
   ],
   intermedio: [
-      {
-          id: 6,
-          title: "ToDos V1",
-          image: "https://static.platzi.com/media/porfilio/todos_1c792138-7ccf-4f2d-a2ac-2d9fb75cb0c4.png",
-          urlGithub: "https://github.com/Misael-GC/introduccion-react",
-          urlDemo: "https://misael-gc.github.io/introduccion-react/",
-          descripcion: "Creación de componentes, manejo del estado con React Hooks y eventos para la interacción con los usuarios",
-          date:"Jul 2022"
-      },
+    {
+      id: 6,
+      title: "ToDos V1",
+      image:
+        "https://static.platzi.com/media/porfilio/todos_1c792138-7ccf-4f2d-a2ac-2d9fb75cb0c4.png",
+      urlGithub: "https://github.com/Misael-GC/introduccion-react",
+      urlDemo: "https://misael-gc.github.io/introduccion-react/",
+      descripcion:
+        "Creación de componentes, manejo del estado con React Hooks y eventos para la interacción con los usuarios",
+      date: "Jul 2022",
+    },
     //   {
     //       id: 7,
     //       title: "ToDos V2",
@@ -222,15 +261,15 @@ export const dataPortfolioFilter = {
     //       descripcion: "Creación de componentes, comunicar componentes, eventos en react, estados, local storage, custom hooks, loading skeletons, useContext, portals",
     //       date:"Oct 2023"
     //   },
-      // {
-      //     id: 8,
-      //     title: "",
-      //     image: "#",
-      //     urlGithub: "#",
-      //     urlDemo: "#",
-      //     descripcion: "#",
-      //     date:"#"
-      // },
+    // {
+    //     id: 8,
+    //     title: "",
+    //     image: "#",
+    //     urlGithub: "#",
+    //     urlDemo: "#",
+    //     descripcion: "#",
+    //     date:"#"
+    // },
   ],
   avanzado: [
     //   {
@@ -242,24 +281,35 @@ export const dataPortfolioFilter = {
     //       descripcion: "Conexión del Frontend y Backend, trabajar con Next.js, configuraciones y estructura de la página ",
     //       date:"Nov 2022"
     //   },
-      {
-          id: 10,
-          title: "ERP Demo",
-          image: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/6970e0c543e3d00008d4b81f/screenshot_2026-01-21-14-21-23-0000.webp&fit=cover&h=500&q=40&w=800",
-          urlGithub: "https://github.com/misaelgocu/kfc_front",
-          urlDemo: "https://erp-demo-mgc.netlify.app",
-          descripcion: "CRUD con React del lado del cliente, consumo de API RESTful con python (Django) del lado del servidor, base de datos SQLite",
-          date:"Enero 2026"
-      },
-      {
-          id: 11,
-          title: "En construcción",
-          image: "https://programacion.net/files/article/article_03289_.jpg",
-          urlGithub: "#",
-          urlDemo: "#",
-          descripcion: "........",
-          date:"#"
-      },
-
-  ]
+    {
+      id: 10,
+      title: "ERP Demo",
+      image:
+        "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/6970e0c543e3d00008d4b81f/screenshot_2026-01-21-14-21-23-0000.webp&fit=cover&h=500&q=40&w=800",
+      urlGithub: "https://github.com/misaelgocu/kfc_front",
+      urlDemo: "https://erp-demo-mgc.netlify.app",
+      descripcion:
+        "CRUD con React del lado del cliente, consumo de API RESTful con python (Django) del lado del servidor, base de datos SQLite",
+      date: "Enero 2026",
+    },
+    {
+      id: 11,
+      title: "FileHub",
+      image: "https://pbs.twimg.com/media/HI5SerYWIAAl97j?format=png&name=large",
+      urlGithub: "https://www.youtube.com/watch?v=R_ZKhDMSxmc&t=33s",
+      urlDemo: "https://www.youtube.com/watch?v=R_ZKhDMSxmc&t=33s",
+      descripcion:
+        "Plataforma web de datos de la bolsa de valores en tiempo real, con gráficos interactivos, utilizando PHP, Python y MySQL",
+      date: "Junio 2026",
+    },
+    {
+      id: 12,
+      title: "En construcción",
+      image: "https://programacion.net/files/article/article_03289_.jpg",
+      urlGithub: "#",
+      urlDemo: "#",
+      descripcion: "........",
+      date: "#",
+    },
+  ],
 };
