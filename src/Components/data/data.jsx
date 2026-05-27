@@ -267,7 +267,7 @@ export const dataPortfolioFilter = {
         image: "https://scontent.fpbc2-3.fna.fbcdn.net/v/t39.30808-6/708345700_2377270329436559_1032461990206668335_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-66Xc5GLI80Q7kNvwGe8qCs&_nc_oc=AdopWLH4SOgskKDdYrqOTlfkMdusTpAdeaWC6Ues3nG0rK26i-hzVQHfo2q70EhLYy_l32a1B8_BGnX5YSAbi4Bg&_nc_zt=23&_nc_ht=scontent.fpbc2-3.fna&_nc_gid=UucJCIoWrm85j625c2msGg&_nc_ss=7b2a8&oh=00_Af7Q7gY_SPOaAar-ybo5d8u7axHKA8HYu19PqvjAVQ5NCQ&oe=6A1C3721",
         urlGithub: "https://github.com/Misael-GC/finance-react",
         urlDemo: "https://markettrack.netlify.app/",
-        descripcion: "Aplicación web para el seguimiento de acciones en la bolsa de valores, utilizando React para el frontend y consumo de una API de finanzas para obtener datos en tiempo real",
+        descripcion: "Seguimiento de acciones en la bolsa de valores, utilizando React y consumo de una API de finanzas para obtener datos en tiempo real",
         date:"Mayo 2026"
     },
     // {
