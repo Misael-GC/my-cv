@@ -8,10 +8,10 @@ const TechSection = () => (
     <Section id="what-do" className="mb-10 mt-3">
         {/* <section className="mb-10 mt-3" id="what-do"> */}
           <div className="flex flex-col items-start justify-center pl-4 w-auto">
-            <h2 className="text-slate-300 font-bold text-3xl mb-4">
+            <h2 className="text-slate-900 dark:text-slate-200 font-bold text-3xl mb-4">
               Tecnologías
             </h2>
-            <p className="flex flex-wrap px-2 max-w-[900px] py-7 mx-auto text-slate-400 text-lg max-w-2xl">
+            <p className="flex flex-wrap px-2 max-w-[900px] py-7 mx-auto text-slate-650 dark:text-slate-400 text-lg max-w-2xl">
               En mi viaje por el mundo del desarrollo de software, he adquirido
               habilidades en una variedad de tecnologías frontend como HTML,
               CSS, y ReactJS, Tailwind y backend como Django, PHP, Laravel,

@@ -3,7 +3,6 @@
   FaCss3Alt,
   FaJsSquare,
   FaReact,
-  FaNodeJs,
   FaPython,
   FaGit,
   FaGithub,
@@ -18,7 +17,6 @@
 } from "react-icons/fa";
 import { SiTailwindcss, SiMysql, SiDjango } from "react-icons/si";
 import { TbDatabase } from "react-icons/tb";
-import { FaGolang } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandCloudflare } from "react-icons/tb";
 

@@ -4,12 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors:{
-        primary: '#9550e5',
-        secondary: '#7c3aed',
-        accent: '#ec4899',
+        primary: '#0ea5e9',
+        secondary: '#00d8ff',
+        accent: '#00d8ff',
         dark: {
           100: '#1f1934',
           200: '#131424',
@@ -17,7 +18,7 @@ export default {
         }
       },
       backgroundImage:{
-        "gradient-cover":"linear-gradient(90.21deg, rgba(170, 54, 124, 0.5)) -5.91%, rgba(74, 47, 189,0.5) 111.58%"
+        "gradient-cover":"linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)"
       },
       spacing: {
         '18': '4.5rem',

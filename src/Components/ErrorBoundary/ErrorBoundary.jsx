@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import PropTypes from 'prop-types';
 import './ErrorBoundary.css';
 
 /**
@@ -21,8 +22,8 @@ class ErrorBoundary extends Component {
   }
 
   static getDerivedStateFromError(error) {
-    // Actualiza el estado para mostrar la UI de fallback
-    return { hasError: true };
+    // Actualiza el estado para mostrar la UI de fallback e incluye el error
+    return { hasError: true, error };
   }
 
   componentDidCatch(error, errorInfo) {
@@ -34,9 +35,6 @@ class ErrorBoundary extends Component {
       errorInfo,
       errorCount: prevState.errorCount + 1
     }));
-
-    // Aquí puedes enviar el error a un servicio como Sentry
-    // logErrorToService(error, errorInfo);
   }
 
   handleReset = () => {
@@ -82,7 +80,7 @@ class ErrorBoundary extends Component {
             </p>
 
             {/* Detalles del error (solo en desarrollo) */}
-            {process.env.NODE_ENV === 'development' && this.state.error && (
+            {import.meta.env.DEV && this.state.error && (
               <details className="error-details">
                 <summary className="error-details-summary">
                   Ver detalles técnicos
@@ -146,5 +144,9 @@ class ErrorBoundary extends Component {
     return this.props.children;
   }
 }
+
+ErrorBoundary.propTypes = {
+  children: PropTypes.node.isRequired
+};
 
 export default ErrorBoundary;

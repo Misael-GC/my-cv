@@ -1,6 +1,6 @@
 // src/Components/ChangeBackgroundButton.js
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const ChangeBackgroundButton = () => {
   const [backgroundColor, setBackgroundColor] = useState('#FFFFFF'); // Blanco por defecto

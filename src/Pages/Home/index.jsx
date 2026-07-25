@@ -7,6 +7,7 @@ import EducationSection from "../../Components/Home/EducationSection.jsx";
 import TechSection from "../../Components/Home/TechSection.jsx";
 import SoftSkillsSection from "../../Components/Home/SoftSkillsSection.jsx";
 import PortfolioSection from "../../Components/Home/PortfolioSection.jsx";
+import ContactSection from "../../Components/Home/ContactSection.jsx";
 import "./index.css";
 
 function Home() {
@@ -40,6 +41,9 @@ function Home() {
         
         {/* Portafolio - Proyectos destacados */}
         <PortfolioSection />
+
+        {/* Contacto directo a WhatsApp */}
+        <ContactSection />
       </Layout>
     </>
   );

@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import PropTypes from 'prop-types';
 
 /**
  * Componente SEO para mejorar el posicionamiento en buscadores
@@ -108,6 +109,16 @@ const SEO = ({
       </script>
     </Helmet>
   );
+};
+
+SEO.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
+  url: PropTypes.string,
+  type: PropTypes.string,
+  author: PropTypes.string,
+  keywords: PropTypes.string
 };
 
 export default SEO;

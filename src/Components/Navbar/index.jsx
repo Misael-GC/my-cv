@@ -1,15 +1,17 @@
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaSun, FaMoon } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
 import { TfiTwitterAlt } from "react-icons/tfi";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import { useTheme } from "../../context/ThemeContext";
 import "./index.css";
 
 function Navbar() {
-  const [activeSection, setActiveSection] = React.useState("home");
+  const [activeSection, setActiveSection] = useState("home");
+  const { theme, toggleTheme } = useTheme();
 
-  React.useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "experience", "education", "what-do", "portfolio"];
+      const sections = ["home", "experience", "education", "what-do", "portfolio", "contact"];
       const scrollPosition = window.scrollY + 200;
 
       sections.forEach((section) => {
@@ -32,24 +34,28 @@ function Navbar() {
   const navItems = [
     { id: "home", label: "Inicio" },
     { id: "experience", label: "Experiencia" },
-    {id: "education", label: "Educación"},
+    { id: "education", label: "Educación" },
     { id: "what-do", label: "Habilidades" },
     { id: "portfolio", label: "Portafolio" },
+    { id: "contact", label: "Contacto" },
   ];
 
-
   return (
-    <nav className="flex bg-[#1f1934] text-white p-7 justify-between items-center fixed z-10 w-full top-0">
+    <nav className="flex bg-white/80 dark:bg-slate-950/60 backdrop-blur-xl border-b border-slate-200 dark:border-white/5 text-slate-800 dark:text-white py-4 px-6 md:px-12 justify-between items-center fixed z-50 w-full top-0 transition-all duration-300">
+      <div className="text-lg font-black tracking-[0.2em] text-slate-900 dark:text-white hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-300">
+        MGC
+      </div>
 
-      <div className="text-2xl font-bold">MGC</div>
-
-
-      <ul className="hidden md:flex space-x-6">
+      <ul className="hidden md:flex space-x-8">
         {navItems.map((item) => (
           <li key={item.id}>
             <a
               href={`#${item.id}`}
-              className={activeSection === item.id ? "text-gray-400" : ""}
+              className={`text-sm tracking-wide transition-all duration-300 hover:text-cyan-600 dark:hover:text-cyan-400 ${
+                activeSection === item.id
+                  ? "text-cyan-600 dark:text-cyan-400 font-semibold"
+                  : "text-slate-600 dark:text-slate-300"
+              }`}
             >
               {item.label}
             </a>
@@ -57,13 +63,24 @@ function Navbar() {
         ))}
       </ul>
 
-      <div className="flex space-x-7 justify-around items-center">
+      <div className="flex space-x-4 items-center">
+        {/* Theme Toggle Button */}
+        <button
+          onClick={toggleTheme}
+          className="text-slate-600 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-300 p-2 rounded-full hover:bg-slate-100 dark:hover:bg-white/5"
+          aria-label="Alternar Tema"
+        >
+          {theme === 'dark' ? <FaSun className="w-5 h-5" /> : <FaMoon className="w-5 h-5" />}
+        </button>
+
+        <span className="w-px h-5 bg-slate-200 dark:bg-white/10 hidden sm:inline-block"></span>
+
         <a
           href="https://www.linkedin.com/in/misael-g%C3%B3mez-cuautle-5976491b9/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visita mi LinkedIn"
-          className="hover:text-gray-400  border-4 border-transparent hover:border-white transition-all inline-blockhover:border-white transition-all inline-block "
+          className="text-slate-600 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-300 p-2 rounded-full hover:bg-slate-100 dark:hover:bg-white/5"
         >
           <FaLinkedin className="w-5 h-5" />
         </a>
@@ -72,7 +89,7 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visita mi Twitter"
-          className="hover:text-gray-400 border-4 border-transparent hover:border-white transition-all inline-block"
+          className="text-slate-600 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-300 p-2 rounded-full hover:bg-slate-100 dark:hover:bg-white/5"
         >
           <TfiTwitterAlt className="w-5 h-5" />
         </a>
@@ -81,7 +98,7 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visita mi GitHub"
-          className="hover:text-gray-400 border-4 border-transparent hover:border-white transition-all inline-block"
+          className="text-slate-600 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-300 p-2 rounded-full hover:bg-slate-100 dark:hover:bg-white/5"
         >
           <ImGithub className="w-5 h-5" />
         </a>
