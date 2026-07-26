@@ -189,7 +189,7 @@ export const dataPortfolioFilter = {
       id: 1,
       title: "Inflación México",
       image:
-        "https://static.platzi.com/media/porfilio/1st-project_92041b56-4f01-41b7-9664-73c76ab9a56c.png",
+        "https://i.ibb.co/Kjdp3NZc/inflaci-n.png",
       urlGithub: "https://github.com/Misael-GC/Inflacion-mx.github.io",
       urlDemo: "https://misael-gc.github.io/Inflacion-mx.github.io/",
       descripcion:
@@ -200,7 +200,7 @@ export const dataPortfolioFilter = {
       id: 2,
       title: "Clon Batatabit",
       image:
-        "https://static.platzi.com/media/porfilio/batatabit_9e3c4de3-7d3e-40b1-8fbe-be7bfc24fb84.png",
+        "https://i.ibb.co/pv1tFJzj/cripto.png",
       urlGithub:
         "https://github.com/Misael-GC/Batatabit-mobile-first.github.io",
       urlDemo: "https://misael-gc.github.io/Batatabit-mobile-first.github.io/",
@@ -212,7 +212,7 @@ export const dataPortfolioFilter = {
       id: 3,
       title: "Super Mario",
       image:
-        "https://i.pinimg.com/736x/1e/a1/f7/1ea1f782bdf5cfd4dc7a42ed447c3989.jpg",
+        "https://i.ibb.co/zhMcTwfm/mario.png",
       urlGithub: "https://github.com/misaelgocu/super-mario-bross/tree/main",
       urlDemo: "https://mario-faser.netlify.app/",
       descripcion:
@@ -228,15 +228,15 @@ export const dataPortfolioFilter = {
     //     descripcion: "Manipulación del DOM, configuraciones con webpack, scripts en json, uso de paquetes npm, despliegue de página",
     //     date:"Sep 2022"
     //   },
-    //    {
-    //        id: 5,
-    //        title: "Pokedex",
-    //        image: "https://static.platzi.com/media/porfilio/pokedex_311851f8-6ed1-4935-b725-3cc3aa7706af.png",
-    //        urlGithub: "https://github.com/Misael-GC/pokedex",
-    //        urlDemo: "https://comforting-gaufre-7f630b.netlify.app/",
-    //        descripcion: "Llamado a una API de Pokemon, Bootstrap y manipulación del DOM",
-    //        date:"Ago 2022"
-    //    }
+      {
+          id: 4,
+          title: "Pokedex",
+          image: "https://i.ibb.co/R421WbHq/pokedex.png",
+          urlGithub: "https://github.com/Misael-GC/pokedex",
+          urlDemo: "https://comforting-gaufre-7f630b.netlify.app/",
+          descripcion: "Llamado a una API de Pokemon, Bootstrap y manipulación del DOM",
+          date:"Ago 2022"
+      }
   ],
   intermedio: [
     {
@@ -253,7 +253,7 @@ export const dataPortfolioFilter = {
       {
           id: 7,
           title: "ToDos V2",
-          image: "https://pbs.twimg.com/media/GSepem2WIAARZAG?format=png&name=small",
+          image: "https://i.ibb.co/gLGGH7rq/To-Dos.png",
           urlGithub: "https://github.com/Misael-GC/curso-react-intro",
           urlDemo: "https://misael-gc.github.io/curso-react-intro/",
           descripcion: "Creación de componentes, comunicar componentes, eventos en react, estados, local storage, custom hooks, loading skeletons, useContext, portals",
@@ -262,7 +262,7 @@ export const dataPortfolioFilter = {
     {
         id: 8,
         title: "MarketTracker",
-        image: "https://scontent.fpbc2-3.fna.fbcdn.net/v/t39.30808-6/708345700_2377270329436559_1032461990206668335_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-66Xc5GLI80Q7kNvwGe8qCs&_nc_oc=AdopWLH4SOgskKDdYrqOTlfkMdusTpAdeaWC6Ues3nG0rK26i-hzVQHfo2q70EhLYy_l32a1B8_BGnX5YSAbi4Bg&_nc_zt=23&_nc_ht=scontent.fpbc2-3.fna&_nc_gid=UucJCIoWrm85j625c2msGg&_nc_ss=7b2a8&oh=00_Af7Q7gY_SPOaAar-ybo5d8u7axHKA8HYu19PqvjAVQ5NCQ&oe=6A1C3721",
+        image: "https://i.ibb.co/GfqBP6Xg/market.png",
         urlGithub: "https://github.com/Misael-GC/finance-react",
         urlDemo: "https://markettrack.netlify.app/",
         descripcion: "Seguimiento de acciones en la bolsa de valores, utilizando React y consumo de una API de finanzas para obtener datos en tiempo real",
