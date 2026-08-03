@@ -190,7 +190,7 @@ export const dataPortfolioFilter = {
       title: "Inflación México",
       image:
         "https://i.ibb.co/Kjdp3NZc/inflaci-n.png",
-      urlGithub: "https://github.com/Misael-GC/Inflacion-mx.github.io",
+      urlGithub: "https://inflacion-mexico.netlify.app",
       urlDemo: "https://misael-gc.github.io/Inflacion-mx.github.io/",
       descripcion:
         "Métodos de arrays, funciones, condicionales, algoritmos, conexión de HTML con JavaScript",
